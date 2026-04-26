@@ -1,7 +1,20 @@
+import Categories from "./components/Categories";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+import ResultsList from "./components/ResultsList";
+
 function App() {
   return (
-    <p className="text-3xl font-bold">Hello, world!</p>
+    <div>
+      <Header />
+      
+      <Categories />
+      
+      <SearchBar />
+
+      <ResultsList />
+    </div>
   )
 }
 
-export default App
+export default App;
